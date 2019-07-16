@@ -51,3 +51,85 @@ def tri(a,b,c):
     print("the area of a triangle with base",b,"and height",c,"is", tri)
     
     tri(1/,2,2,4)
+
+
+
+def areasquare(a):
+    areasquare = a**2
+print(areasquare)
+    
+areasquare(4)
+
+ 
+
+print("box",=5)
+
+box = 5 
+print("there are",box,"bars in the box")
+
+
+#chocolate types 
+d = "dark"
+m = "milk"
+w = "white"
+
+print(d/m/w)
+print(d,m,w)
+
+
+"D" = Dark
+
+#greet a person by their name 
+def Hello(a):
+    Hello = a 
+    print(Hello)
+    
+Hello("Hey Jamal")
+
+math.pow(2,4)
+math.pow(2,1/4)
+
+
+
+math.remainder(5,3)
+
+import math
+def cube(x):
+    cube = math.pow(x,(1/3))
+    print("The cube root of",x,"is",cube)
+    
+cube(2)
+
+def squareroot(a):
+    squareroot = math.sqrt(a)
+    print
+ 
+print("please enter a value")
+x = 10
+def cube(x):
+    cube = math.pow(x,(1/3))
+    print("The cube root of",x,"is",cube)
+
+cube(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
