@@ -114,22 +114,46 @@ cube(x)
 
 
 
+m = "cadburymilk"
+w = "cadburywhite"
+d = "cadburydark"
+
+   print("I have  5",m,",8",w,"3"
+    
+   
+#dict data structure 
+chocolate1 = {"milk":5}  
+chocolate2 = {"dark":3}
+chocolate3 = {"white":8}
+
+chocolatebox = {"milk":5,
+                
+
+            
+
+
+
+name1 = ("Steve":32)
+name2 = ("Lia":28)
+name3 = ("Vin":45)
+name4 = ("Katie":38)
+
+names = ("Steve":male)
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
