@@ -126,7 +126,7 @@ chocolate1 = {"milk":5}
 chocolate2 = {"dark":3}
 chocolate3 = {"white":8}
 
-chocolatebox = {"milk":5,
+chocolatebox = {"milk":5}
                 
 
             
@@ -140,14 +140,73 @@ name4 = ("Katie":38)
 
 names = ("Steve":male)
 
+stateweather ={"FL":100, "NY":50, "ATL":70}
+
+print(stateweather["FL"])
+
+
+chocolatebox ={"milk":5,"dark":3,"white":8}
+print("The number of milk chocolates in a chocolate box is",
+      chocolatebox["milk"])
+                
+Gender = {"Lia":"Female","Steve":"Male","Vin":"Male","Katie":"Female"}    
+Age = {"Steve":32,"Lia":28,"Vin":45,"Katie"38}
+print("Lia's age is",28,"and gender is",
+
+
+import pandas
+dir(pandas)
+
+chocolatebox = ("milk":5,"dark":3,"white":8)
+chocolateinfo = pandas.Series(chocolatebox)
+print(chocolateinfo)
+
+chocolatedata = [chocolatebox] 
+print(chocolatedata)
+
+chocolatedf = pandas.DataFrame(chocolatedata, index=["quantity"]) 
+print(chocolatedf)
+
+
+studentallinfo = [['Steve',32,'male'],['Lia',28,'female']]
+df = pandas.DataFrame(studentallinfo)
+print(df)
+
+df1 = pandas.DataFrame([studentallinfo])
+print(df1)
+
+df12 = pandas.DataFrame([studentallinfo]), index=["age"])
+print(d12)
+
+df2 = pandas.DataFrame(studentallinfo, columns=["Name])
 
 
 
 
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 
                 
                 
